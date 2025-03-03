@@ -1,2 +1,5 @@
 # it-school
-curs it
+
+curs IT
+test
+print("python")
