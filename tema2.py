@@ -55,7 +55,9 @@
 
 # 23) Sa se afiseze toate numerele impare pana la 50.
 
-# for numar in range(1,50):
+# x = range(0,51)
+#
+# for numar in x:
 #     if numar % 2 == 1:
 #         print(numar)
 
@@ -86,6 +88,7 @@
 # while True:
 #     if 200 < 3 ** x < 300:
 #         print(3 ** x)
+#         print(f"Puterea lui 3 este {x}.")
 #     x += 1
 
 
@@ -115,21 +118,17 @@
 # Sa se calculeze produsul numerelor de la 1 pana la numarul citit. (folositi for si while)
 
 # x = int(input("Introduceti un numar: "))
-# # y = range(1,x)
-# #
-# # for suma in y:
-# #     print(x*suma)
-
-
-# x = int(input("Introduceti un numar: "))
-# y = 1
-# rez = y * x
+# y = range(1,x)
 #
-# while True:
-#     print(rez)
-#     y += 1
-#     if y > x:
-#         break
+# for suma in y:
+#     print(x*suma)
+#
+# numar = int(input("Introduceti un numar: "))
+# x = 1
+#
+# while x in range (1,numar):
+#     print(x * numar)
+#     x += 1
 
 
 
@@ -158,11 +157,11 @@
 # 30) Se citeste un numar intreg de la tastatura. Sa se afiseze pe rand fiecare cifra a acestuia folosind un while.
 
 
-# x = int(input("Introduceti un numar: "))
-#
-# while x >= 10:
-#     for cifra in x:
-#         print(cifra)
+# numar = str(input("Introduceti un numar: "))
+# x = 0
+# while x < len(numar):
+#     print(numar[x])
+#     x += 1
 
 
 
@@ -186,3 +185,108 @@
 #     print("Numarul introdus este mai mic.")
 # elif x == y:
 #     print("Ati ghicit!!!")
+
+
+# cuvant = "mamaliga"
+#
+# for litera_a in cuvant:
+#     if litera_a == "a":
+#         print(cuvant.count("a"))
+
+
+
+# cuvant = "mamaliga"
+# x = "a"
+# while x in cuvant:
+#     print(cuvant.count("a"))
+#     break
+
+
+# for
+# cuvant = input("Va rog introduceti un cuvant: ")
+# litera_dorita = input("Va rog introduceti o litera pentru a fi numarata: ")
+#
+#
+#
+# x = 0
+# for litera in cuvant:
+#     if litera == litera_dorita:
+#         x += 1
+#
+# print(f"Litera `{litera_dorita}`sa gaseste de {x} ori in cuvantul `{cuvant}` .")
+
+# cu while
+
+#print(f"'{litera_dorita}' se afla in cuvantul '{cuvant}' de {x} ori.")
+# cuvant = input("Va rog introduceti un cuvant: ")
+# litera_dorita = input("Va rog introduceti o litera pentru a fi numarata: ")
+# x = 0
+# y = 0
+# while x < len(cuvant):
+#     if cuvant[x] == litera_dorita:
+#         y += 1
+#     x += 1
+#
+# print(f"'{litera_dorita}' se afla in cuvantul '{cuvant}' de {y} ori.")
+
+
+
+# 23) Sa se afiseze toate numerele impare pana la 50.
+
+# x = range(0,51)
+#
+# for numar in x:
+#     if numar % 2 == 1:
+#         print(numar)
+
+# x = range(0,51)
+# numar = 0
+# while numar in x:
+#     if numar % 2 == 1:
+#         print(numar)
+#     numar += 1
+
+
+
+# 26) Se citeste un numar de la tastatura.
+# Sa se calculeze suma numerelor de la 1 pana la numarul citit. (folositi for si while)
+
+# numar = int(input("Introduceti un numar: "))
+#
+# x = 1
+#
+# for cifra in range(1,numar) :
+#     print(numar + x)
+#     x += 1
+
+
+# numar = int(input("Introduceti un numar: "))
+#
+# x = 1
+#
+# while x in range(x,numar):
+#     if numar == type(int):
+#         continue
+#     else:
+#         print(numar + x)
+#     x += 1
+
+
+# from random import randint
+#
+# x= (randint(1,100))
+# y = int(input("Ghiciti numarul aleatoriu: "))
+#
+# while 0 < y <= 100 :
+#     if y > x:
+#         print("Numarul introdus este mai mare.")
+#         print(x)
+#         break
+#     elif y < x:
+#         print("Numarul introdus este mai mic.")
+#         print(x)
+#         break
+#     elif x == y:
+#         print("Ati ghicit!!!")
+#         print(x)
+#         break
