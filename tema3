@@ -100,13 +100,27 @@
 # functie(lista)
 
 
-
 # 41. Se da lista: [5, 17, 15, 12, 19, 31, 27, 55, 102, 33, 97].
 # Sa se scrie o functie care primeste ca parametru lista si un numar.
 # Functia trebuie sa afiseaza indexul numarului daca
 # acesta se afla in lista sau "Not Found" in caz contrar.
 
 
+# lista = [5, 17, 15, 12, 19, 31, 27, 55, 102, 33, 97]
+# numar = int(input("Introduceti un numar: "))
+#
+# for el in lista:
+#     if el != numar:
+#         print("Not found")
+#     elif el == numar:
+#             print(lista.index(el))
+#             break
+
+# a = 5
+# b = 7
+# a = a + b
+#
+#
 # lista = [5, 17, 15, 12, 19, 31, 27, 55, 102, 33, 97]
 # numar = int(input("Introduceti un numar: "))
 #
@@ -118,10 +132,15 @@
 #            break
 #     else:
 #         print("Not found")
+#
+# functie(lista,numar)
 
 
 
 
 
 
-functie(lista,numar)
+
+
+
+
